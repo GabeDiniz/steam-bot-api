@@ -18,4 +18,5 @@ winpty python manage.py createsuperuser
 # Create Models
 # After creating the model in models.py...
 python manage.py makemigrations
+python manage.py migrate
 ```
