@@ -13,14 +13,13 @@ Steam Game data API (my first API!) built using Python and Django.
 source venv/Scripts/activate
 deactivate
 
-# Run server (inside steambotapi/)
+# Run server locally (inside /steambotapi/)
 python manage.py runserver
+
+# Run after creating/updating Models
+python manage.py makemigrations
+python manage.py migrate
 
 # Create superuser
 winpty python manage.py createsuperuser
-
-# Create Models
-# After creating the model in models.py...
-python manage.py makemigrations
-python manage.py migrate
 ```
